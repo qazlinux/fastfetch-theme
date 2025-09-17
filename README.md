@@ -20,10 +20,12 @@ Importante:
 
 Licencia:
 Fastfetch está licenciado bajo la MIT License (según su repositorio oficial).
+
 riotfetch respeta plenamente la licencia original y no reclama ningún tipo de autoría sobre Fastfetch.
 
 Créditos:
 Todo el mérito por el desarrollo, mantenimiento y diseño de Fastfetch corresponde al equipo de fastfetch-cli
+
 riotfetch es únicamente una capa de personalización creada por qazlinux.
 
 ________________________________________________________________________________________________________________________________
@@ -50,8 +52,10 @@ It includes the option to use a custom logo (riot.deb) or the default Fastfetch 
 
 License:
 Fastfetch is licensed under the MIT License (according to its official repository).
+
 riotfetch fully complies with the original license and does not claim authorship over Fastfetch.
 
 Credits:
 All credit for the development, maintenance, and design of Fastfetch goes to the fastfetch-cli
+
 riotfetch is only a customization layer created by qazlinux.
