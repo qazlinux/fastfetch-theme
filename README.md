@@ -8,25 +8,25 @@ Fastfetch es una herramienta de línea de comandos rápida y altamente configura
 Página del proyecto: https://github.com/fastfetch-cli/fastfetch
 
 Descripción:
-El tema riotfetch es una personalización minimalista y meramente estética para Fastfetch. Su objetivo es mostrar la información esencial del ordenador en un formato limpio y ordenado, resaltando tanto el software (sistema operativo, kernel, paquetes, entorno gráfico) como el hardware (CPU, GPU, memoria, batería, discos), junto con detalles visuales como tema, iconos y fuentes.
+El tema Riotfetch es una personalización minimalista y meramente estética para Fastfetch. Su objetivo es mostrar la información esencial del ordenador en un formato limpio y ordenado, resaltando tanto el software (sistema operativo, kernel, paquetes, entorno gráfico) como el hardware (CPU, GPU, memoria, batería, discos), junto con detalles visuales como tema, iconos y fuentes.
 
 Este proyecto no añade ni modifica funcionalidades de Fastfetch: únicamente proporciona un diseño visual alternativo para quienes desean un aspecto más uniforme y distintivo en la terminal.
 
 Importante:
 
-- riotfetch no altera el código original de Fastfetch.
+- Riotfetch no altera el código original de Fastfetch.
 - Solo es un conjunto de configuraciones y estética.
 - Incluye la opción de usar un logo personalizado (riot.deb) o el logo predeterminado de Fastfetch.
 
 Licencia:
 Fastfetch está licenciado bajo la MIT License (según su repositorio oficial).
 
-riotfetch respeta plenamente la licencia original y no reclama ningún tipo de autoría sobre Fastfetch.
+Riotfetch respeta plenamente la licencia original y no reclama ningún tipo de autoría sobre Fastfetch.
 
 Créditos:
 Todo el mérito por el desarrollo, mantenimiento y diseño de Fastfetch corresponde al equipo de fastfetch-cli
 
-riotfetch es únicamente una capa de personalización creada por qazlinux.
+Riotfetch es únicamente una capa de personalización creada por qazlinux.
 
 ________________________________________________________________________________________________________________________________
 
@@ -38,13 +38,13 @@ Fastfetch is a fast and highly customizable command-line tool that displays oper
 Project page: https://github.com/fastfetch-cli/fastfetch
 
 Description:
-The riotfetch theme is a minimalist and purely aesthetic customization for Fastfetch. Its goal is to display essential computer information in a clean and organized format, highlighting both software (operating system, kernel, packages, desktop environment) and hardware (CPU, GPU, memory, battery, disks), along with visual details such as theme, icons, and fonts.
+The Riotfetch theme is a minimalist and purely aesthetic customization for Fastfetch. Its goal is to display essential computer information in a clean and organized format, highlighting both software (operating system, kernel, packages, desktop environment) and hardware (CPU, GPU, memory, battery, disks), along with visual details such as theme, icons, and fonts.
 
 This project does not add or modify any Fastfetch functionality: it only provides an alternative visual design for those who want a more consistent and distinctive appearance in their terminal.
 
 Important:
 
-riotfetch does not alter the original Fastfetch code.
+Riotfetch does not alter the original Fastfetch code.
 
 It is only a set of configurations and visual styling.
 
@@ -53,9 +53,9 @@ It includes the option to use a custom logo (riot.deb) or the default Fastfetch 
 License:
 Fastfetch is licensed under the MIT License (according to its official repository).
 
-riotfetch fully complies with the original license and does not claim authorship over Fastfetch.
+Riotfetch fully complies with the original license and does not claim authorship over Fastfetch.
 
 Credits:
 All credit for the development, maintenance, and design of Fastfetch goes to the fastfetch-cli
 
-riotfetch is only a customization layer created by qazlinux.
+Riotfetch is only a customization layer created by qazlinux.
