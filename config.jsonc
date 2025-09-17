@@ -9,11 +9,6 @@
       "format": "\u001b[36m╭───────────────── \u001b[32mSoftware \u001b[36m─────────────────"
     },
     {
-      "type": "logo",  // New module: Logo
-      "key": "│ Logo",
-      "keyColor": "cyan"
-    },
-    {
       "type": "os",
       "key": "│ OS",
       "keyColor": "cyan"
@@ -44,7 +39,7 @@
       "keyColor": "cyan"
     },
     {
-      "type": "wm",  // New module: Window Manager
+      "type": "wm",  // Nuevo módulo: Gestor de ventanas
       "key": "│ Window Manager",
       "keyColor": "cyan"
     },
@@ -78,7 +73,7 @@
       "keyColor": "cyan"
     },
     {
-      "type": "battery",  // New module: Battery
+      "type": "battery",  // Nuevo módulo: Batería
       "key": "│ Battery",
       "keyColor": "cyan"
     },
@@ -91,6 +86,7 @@
       "key": "│ Uptime",
       "keyColor": "cyan"
     },
+
     {
       "type": "custom",
       "format": "\u001b[36m╰────────────────────────────────────────────"
@@ -100,7 +96,7 @@
     },
     {
       "type": "custom",
-      "format": " "  // Empty space at the end
+      "format": " "  // Espacio vacío al final
     }
   ]
 }
