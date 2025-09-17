@@ -34,15 +34,16 @@
       "keyColor": "cyan"
     },
     {
+      "type": "wm",
+      "key": "│ Window Manager",
+      "keyColor": "cyan"
+    },
+    {
       "type": "terminal",
       "key": "│ Terminal",
       "keyColor": "cyan"
     },
-    {
-      "type": "wm",  // Nuevo módulo: Gestor de ventanas
-      "key": "│ Window Manager",
-      "keyColor": "cyan"
-    },
+
     {
       "type": "custom",
       "format": "\u001b[36m├───────────────── \u001b[32mHardware \u001b[36m─────────────────"
@@ -73,10 +74,11 @@
       "keyColor": "cyan"
     },
     {
-      "type": "battery",  // Nuevo módulo: Batería
+      "type": "battery",
       "key": "│ Battery",
       "keyColor": "cyan"
     },
+
     {
       "type": "custom",
       "format": "\u001b[36m├────────────────── \u001b[32mUptime \u001b[36m──────────────────"
@@ -89,6 +91,23 @@
 
     {
       "type": "custom",
+      "format": "\u001b[36m├───────────────── \u001b[32mCredits \u001b[36m─────────────────"
+    },
+    {
+      "type": "custom",
+      "format": "│ Maintainer › \u001b[32mqazlinux"
+    },
+    {
+      "type": "custom",
+      "format": "│ Contact    › \u001b[34mqazlinux@tuta.io"
+    },
+    {
+      "type": "custom",
+      "format": "│ GitHub     › \u001b[34mhttps://github.com/qazlinux/fastfetch-theme"
+    },
+
+    {
+      "type": "custom",
       "format": "\u001b[36m╰────────────────────────────────────────────"
     },
     {
@@ -96,7 +115,7 @@
     },
     {
       "type": "custom",
-      "format": " "  // Espacio vacío al final
+      "format": " "
     }
   ]
 }
