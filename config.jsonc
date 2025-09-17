@@ -1,12 +1,24 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+  "source": "/$HOME/$USERS/.config/fastfetch/logo.png",
+  "type":"kitty-direct",
+        "position": "left",
+        "width": 51,
+        "padding": {
+            "top": 3,
+            "bottom": 10,
+            "left": 3,
+            "right": 3,
+        },
+ },    
   "display": {
     "separator": "› "
   },
   "modules": [
     {
       "type": "custom",
-      "format": "\u001b[36m╭───────────────── \u001b[32mSoftware \u001b[36m─────────────────"
+      "format": "\u001b[36m╭───────────────────────────── \u001b[32mSoftware \u001b[36m────────────────────────────╮"
     },
     {
       "type": "os",
@@ -44,9 +56,9 @@
       "keyColor": "cyan"
     },
 
-    {
+ {
       "type": "custom",
-      "format": "\u001b[36m├───────────────── \u001b[32mHardware \u001b[36m─────────────────"
+      "format": "\u001b[36m├───────────────────────────── \u001b[32mHardware \u001b[36m────────────────────────────┤"
     },
     {
       "type": "host",
@@ -54,8 +66,18 @@
       "keyColor": "cyan"
     },
     {
+      "type": "bios",
+      "key": "│ BIOS",
+      "keyColor": "cyan"
+    },
+    {
       "type": "cpu",
       "key": "│ CPU",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "cpuUsage",
+      "key": "│ CPU Usage",
       "keyColor": "cyan"
     },
     {
@@ -69,8 +91,18 @@
       "keyColor": "cyan"
     },
     {
+      "type": "physicalMemory",
+      "key": "│ Physical Memory",
+      "keyColor": "cyan"
+    },
+    {
       "type": "disk",
       "key": "│ Disk",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "physicalDisk",
+      "key": "│ Physical Disk",
       "keyColor": "cyan"
     },
     {
@@ -79,36 +111,54 @@
       "keyColor": "cyan"
     },
 
+
     {
       "type": "custom",
-      "format": "\u001b[36m├────────────────── \u001b[32mUptime \u001b[36m──────────────────"
+      "format": "\u001b[36m├─────────────────────────── \u001b[32mPerformance \u001b[36m───────────────────────────┤"
     },
     {
       "type": "uptime",
       "key": "│ Uptime",
       "keyColor": "cyan"
     },
-
+    {
+      "type": "loadavg",
+      "key": "│ Load Average",
+      "keyColor": "cyan"
+    },
+    
     {
       "type": "custom",
-      "format": "\u001b[36m├───────────────── \u001b[32mCredits \u001b[36m─────────────────"
+      "format": "\u001b[36m├──────────────────────────── \u001b[32mAppearance \u001b[36m───────────────────────────┤"
     },
     {
-      "type": "custom",
-      "format": "│ Maintainer › \u001b[32mqazlinux"
+      "type": "theme",
+      "key": "│ Theme",
+      "keyColor": "cyan"
+    },    
+    {
+      "type": "icons",
+      "key": "│ Icons",
+      "keyColor": "cyan"
     },
     {
-      "type": "custom",
-      "format": "│ Contact    › \u001b[34mqazlinux@tuta.io"
+      "type": "font",
+      "key": "│ Font",
+      "keyColor": "cyan"
     },
     {
-      "type": "custom",
-      "format": "│ GitHub     › \u001b[34mhttps://github.com/qazlinux/fastfetch-theme"
+      "type": "cursor",
+      "key": "│ Cursor",
+      "keyColor": "cyan"
     },
-
+    {
+      "type": "terminalfont",
+      "key": "│ TerminalFont",
+      "keyColor": "cyan"
+    },        
     {
       "type": "custom",
-      "format": "\u001b[36m╰────────────────────────────────────────────"
+      "format": "\u001b[36m╰───────────────────────────────────────────────────────────────────╯"
     },
     {
       "type": "colors"
